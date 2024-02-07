@@ -1,0 +1,24 @@
+﻿Trovare il numero di righe
+Fare le frecce
+Collegare l'excel e parsarlo
+Refactoring generale (magari togliere sta roba del centro)
+
+Se più attività dipendono dalla stessa trovare il modo per disporle nel modo corretto 
+Idea: se il numero di attività è dispari fai 1 sulla stessa colonna, uno su, e uno giù finché non finiscono
+	  se il numero di attività è pari fai uno su e uno giù finché non finiscono
+																					c
+	  sortarli in un qualche modo in modo da far essere in ordine le attività ( a-> b)
+																					d
+																			
+																			farlo diventare
+																					b
+																			  ( a-> c)
+																					d
+
+
+
+Esempio problema: da a dipende un'altra attività ma non c'è
+spazio per infilarla perché il suo spazio è occupato da c
+che ha b come priorità												a	 c
+																	b -> d
+																	     e
