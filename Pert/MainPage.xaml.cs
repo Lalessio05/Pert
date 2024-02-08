@@ -37,7 +37,7 @@ namespace Pert
 
 
             foreach (var attività in Attività)
-            {
+                {
                 if (attività.Siblings.Count == 0)
                     attività.Center = (250, 0);
                 else
